@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shooting Gun</title>
+    <style>
+        .gun {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+
+        .gun:hover .bullet {
+
+            transform: translate(575%, -50%);
+
+        }
+
+        .bullet {
+            width: 100px;
+            height: 60px;
+            position: absolute;
+            top: 23%;
+            right: 24%;
+            transform: translate(79%, -50%);
+            transition: transform 0.1s ease-in-out;
+
+        }
+        h1 {font-size: 50px;
+            font-weight: 900;
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.iif17wpgp66oX2M5QUxiIgHaEK&pid=Api&P=0&h=180);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            text-align: center;
+            /* filter: drop-shadow(5px 5px blue); */
+            transition: all ease 1s;
+        }
+        h1:hover{
+            filter: drop-shadow(8px 1px rgb(255, 153, 0));
+      
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="gun"><img class="gun"
+            src="https://www.transparentpng.com/thumb/gun/gold-plated-revolver-gun-transparent-free-background-color-SkvUz3.png"
+            alt="gun">
+        <div class="bullet"><img class="bullet"
+                src="https://www.transparentpng.com/thumb/bullet/squeezed-fast-moving-bullet-transparent-jhX1Cw.png"
+                alt="">
+
+        </div>
+
+    </div>
+    <details>
+    <summary>Magic</summary>
+    <h1>Muhammad Huzaifa Khan</h1>
+</details>
+<center><kbd>Ctrl</kbd>+<kbd>/</kbd></center>
+</body>
+
+</html>
